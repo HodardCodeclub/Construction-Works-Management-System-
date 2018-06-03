@@ -38,9 +38,11 @@ After cloning this project to your desired directory[Windows: C:~/xampp/htdocs ,
 
 * Run the application  
 After finishing the steps above, you will need to run the app on your local machine.  
--> Go into your browser and type _localhost/cwms_.  
+-> Go into your browser and type _localhost/bs/admin_.  
 -> If all was done successfully, you will find a login page.   
--> Use admin@gmail.com as username and 123456 as password. 
+-> Use admin@gmail.com as username and 123456 as password.
+-> Use better@gmail.com as username and better as password
+-> Use solange@gmail.com as username and solange as password 
 
 * To add new user
 -> localhost/bs/admin/register.php
