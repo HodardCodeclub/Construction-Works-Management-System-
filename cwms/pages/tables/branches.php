@@ -71,7 +71,7 @@
 
 
                       <?php
-           $conn = mysqli_connect("localhost","root","");
+           $conn = mysqli_connect("localhost","root","lecteur1994ange");
              mysqli_select_db($conn,"hodard");
 
 
@@ -147,7 +147,7 @@
                       // $stmt_delete->execute();
 
 
-                      $conn = mysqli_connect("localhost","root","");
+                      $conn = mysqli_connect("localhost","root","lecteur1994ange");
                         mysqli_select_db($conn,"hodard");
                         $idd =$_GET['delete_id'];
 
