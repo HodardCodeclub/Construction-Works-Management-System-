@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2affefc1-30ad-418d-a397-fb04f2b4d8e3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwms/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cwms/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="purchaseorder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cwms/pages/tables/purchaseorder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="150" column="53" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="simple.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cwms/pages/tables/simple.html">
           <provider selected="true" editor-type-id="text-editor" />
@@ -67,14 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cwms/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="337">
-                <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+              <first_editor relative-caret-position="17">
+                <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="92" column="67" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -132,6 +131,7 @@
         <option value="$PROJECT_DIR$/cwms/pages/tables/wordnoimages.php" />
         <option value="$PROJECT_DIR$/cwms/pages/tables/branches.php" />
         <option value="$PROJECT_DIR$/cwms/README.md" />
+        <option value="$PROJECT_DIR$/admin/register.php" />
       </list>
     </option>
   </component>
@@ -173,30 +173,6 @@
               <item name="better" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="better" type="b2602c69:ProjectViewProjectNode" />
-              <item name="better" type="462c0819:PsiDirectoryNode" />
-              <item name="cwms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="better" type="b2602c69:ProjectViewProjectNode" />
-              <item name="better" type="462c0819:PsiDirectoryNode" />
-              <item name="cwms" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="better" type="b2602c69:ProjectViewProjectNode" />
-              <item name="better" type="462c0819:PsiDirectoryNode" />
-              <item name="cwms" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="tables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="better" type="b2602c69:ProjectViewProjectNode" />
-              <item name="better" type="462c0819:PsiDirectoryNode" />
-              <item name="cwms" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,12 +208,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528031224047</updated>
-      <workItem from="1528031226093" duration="2598000" />
+      <workItem from="1528031226093" duration="3365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2598000" />
+    <option name="totallyTimeSpent" value="3365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -280,9 +256,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/logout.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/register.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cwms/header.php">
@@ -418,10 +391,17 @@
     <entry file="file://$PROJECT_DIR$/cwms/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="337">
-            <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <first_editor relative-caret-position="17">
+            <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="92" column="67" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
         </state>
       </provider>
     </entry>

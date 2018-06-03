@@ -90,7 +90,7 @@ if (isset($_POST['signup'])) {
 					</div>
 				</fieldset>
 			</form>
-				Already Registered? <a href="login.php">Login Here</a>
+				Already Registered? <a href="localhost/better/admin">Login Here</a>
 			<span class="text-success"><?php if (isset($successmsg)) { echo $successmsg; } ?></span>
 			<span class="text-danger"><?php if (isset($errormsg)) { echo $errormsg; } ?></span>
 		</div>
