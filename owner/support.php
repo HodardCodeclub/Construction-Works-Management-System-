@@ -44,7 +44,7 @@ include "header.php";
         <section class="content-header">
           <h1>
             Message from the users
-            <small>ESwahili App</small>
+            <small>CWMS App</small>
           </h1>
 
         </section>

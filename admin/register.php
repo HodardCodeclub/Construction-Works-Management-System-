@@ -59,7 +59,7 @@ if (isset($_POST['signup'])) {
 		<div class="col-md-4 col-md-offset-4 well" style="background-color:white; border-radius:10px;margin-top:130px">
 			<form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">
 				<fieldset>
-					<legend><a href="../learn-center/">Login to ESwahili app.</a></legend>
+					<legend><a href="../learn-center/">Login to CWMS app.</a></legend>
 
 					<div class="form-group">
 						<label for="name">Name</label>
