@@ -1,16 +1,13 @@
 ### Project Profile ###
 
 
-* This is a final Project of cwms developed by :
+* This is a CWMS Project for Civil Engineering :
 
-### Better Umutoni & Solange Uzarama ###
-
-
-* The project is for partial fullfilment of Adacaeci purpose in ICT Advenced Diploma.
+### Hodard Hazwinayo ###
 
 
 * Any information relate on it plz fell free to contact us on :
-0787516460 and 0789490121.
+0789610956 / 0722157070.
 
 This file is to instruct you installing and successfully running cwms.
 
@@ -41,8 +38,7 @@ After finishing the steps above, you will need to run the app on your local mach
 -> Go into your browser and type _localhost/bs/admin_.  
 -> If all was done successfully, you will find a login page.   
 -> Use admin@gmail.com as username and 123456 as password.
--> Use better@gmail.com as username and better as password
--> Use solange@gmail.com as username and solange as password 
+ 
 
 * To add new user
 -> localhost/bs/admin/register.php
