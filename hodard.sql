@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
+-- version 4.5.4.1deb2ubuntu2
 -- http://www.phpmyadmin.net
 --
--- Host: 127.0.0.1
--- Generation Time: Jun 03, 2018 at 01:44 PM
--- Server version: 10.1.16-MariaDB
--- PHP Version: 5.6.24
+-- Host: localhost
+-- Generation Time: Jun 03, 2018 at 04:20 PM
+-- Server version: 5.7.22-0ubuntu0.16.04.1
+-- PHP Version: 7.0.30-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -45,6 +45,14 @@ CREATE TABLE `branches` (
   `tax` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `branches`
+--
+
+INSERT INTO `branches` (`id`, `bname`, `bcode`, `baddress`, `contactname`, `homephone`, `mobilephone`, `pemail`, `bemail`, `fax`, `cin`, `tin`, `cst`, `Excise`, `PAN`, `tax`) VALUES
+(1, 'Huye', 'huye0123', 'Huye', 'Solange', '789610966', '0722157070', 'solange@gmail.com', 'huye@horizon.com', '250 678 345', '035748956', '2364759505', '5657869', '46475586', '26378458', '5758960'),
+(3, 'Huye', 'fdgffgh', 'ewhwit', 'fg2r9ti', 'fwur38590', 'vruiutit', 'fgyry3oij', 'fjfjgl@gmail.com', '4375953-0', '678849', '474850', '478585', '7858966', '4748495', '4647859');
+
 -- --------------------------------------------------------
 
 --
@@ -65,7 +73,8 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `name`, `unite`, `baddress`, `price`, `description`) VALUES
-(3, 'item name', 'unite', 'huye', '88', 'dwesc');
+(3, 'item name', 'unite', 'huye', '88', 'dwesc'),
+(4, 'Hoe', '1', 'huye', '234', 'jrgbveohwfgeigmglg');
 
 -- --------------------------------------------------------
 
@@ -127,7 +136,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(1, 'admin', 'admin@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
+(1, 'admin', 'admin@gmail.com', 'e10adc3949ba59abbe56e057f20f883e'),
+(2, 'Better', 'better@gmail.com', '8518008e8835d42ddb7c83810b5cede0'),
+(3, 'Solange', 'solange@gmail.com', '358c811ef60b3e28bb49e910f55ff473'),
+(4, 'Hodard Hazwinayo', 'hodardhazwinayo@gmail.com', '5159ac76d1a67708903b3adcd38d6acd');
 
 -- --------------------------------------------------------
 
@@ -242,27 +254,27 @@ ALTER TABLE `branches`
 -- AUTO_INCREMENT for table `items`
 --
 ALTER TABLE `items`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `projects`
 --
 ALTER TABLE `projects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `purchaseorder`
 --
 ALTER TABLE `purchaseorder`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `vendorpayment`
 --
 ALTER TABLE `vendorpayment`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `vendors`
 --
