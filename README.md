@@ -37,7 +37,7 @@ After cloning this project to your desired directory[Windows: C:~/xampp/htdocs ,
 After finishing the steps above, you will need to run the app on your local machine.  
 -> Go into your browser and type http://localhost/Construction-Works-Management-System--master/admin/.  
 -> If all was done successfully, you will find a login page.
-> Use uwimpehwe@gmail.com as username and Rwanda123 as password.   
+-> Use uwimpehwe@gmail.com as username and Rwanda123 as password.   
 -> Use admin@gmail.com as username and 123456 as password.
  
 
