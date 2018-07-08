@@ -3,11 +3,11 @@
 
 * This is a CWMS Project for Civil Engineering :
 
-### Hodard Hazwinayo ###
+### Louise Uwimpuhwe ###
 
 
 * Any information relate on it plz fell free to contact us on :
-0789610956 / 0722157070.
+0783932566.
 
 This file is to instruct you installing and successfully running cwms.
 
