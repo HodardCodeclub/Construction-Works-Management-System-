@@ -1,7 +1,7 @@
 ### Project Profile ###
 
 
-* This is a CWMS Project for Civil Engineering :
+* This is a Construction Works Management System (CWMS) Project for Civil Engineering :
 
 ### Louise Uwimpuhwe ###
 
