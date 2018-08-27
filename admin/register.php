@@ -105,3 +105,5 @@ if (isset($_POST['signup'])) {
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+// end of index files in php so far
