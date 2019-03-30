@@ -3,11 +3,11 @@
 
 * This is a Construction Works Management System (CWMS) Project for Civil Engineering :
 
-### Louise Uwimpuhwe ###
+### H H ###
 
 
 * Any information relate on it plz fell free to contact us on :
-0783932566.
+0781947445.
 
 This file is to instruct you installing and successfully running cwms.
 
@@ -36,8 +36,7 @@ After cloning this project to your desired directory[Windows: C:~/xampp/htdocs ,
 * Run the application  
 After finishing the steps above, you will need to run the app on your local machine.  
 -> Go into your browser and type http://localhost/Construction-Works-Management-System--master/admin/.  
--> If all was done successfully, you will find a login page.
--> Use uwimpehwe@gmail.com as username and Rwanda123 as password.   
+-> If all was done successfully, you will find a login page.  
 -> Use admin@gmail.com as username and 123456 as password.
  
 
